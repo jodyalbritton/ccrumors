@@ -14,7 +14,8 @@
 ----------------------------------------- */
 body{
 background-image: url(../images/main-background.jpg);
-background-repeat: repeat-x;
+background-repeat: repeat-xy;
+
     background-position: top left;
         background-attachment: fixed;
 }
