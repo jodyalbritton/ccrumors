@@ -24,11 +24,41 @@ background-repeat: repeat-xy;
    Page Name 1
 ----------------------------------------- */
 
-.logo h1 { 
+h1 { 
 	
-	color: white;
+	
+	font-family: 'bleeding_cowboysregular';
+	color: grey;
+}
+h2 { 
+	
+	
+	font-family: 'bleeding_cowboysregular';
+	color: grey;
+}
+h3 { 
+	
+	
+	font-family: 'bleeding_cowboysregular';
+	color: grey;
+}
+h4 { 
+	
+	
+	font-family: 'bleeding_cowboysregular';
+	color: grey;
 }
 
+div.logo{
+	padding-top: 11px;
+}
+
+div.copy-cat{
+	color: white;
+}
+div.sub-logo{
+    
+}
 div.containment {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 5px;
