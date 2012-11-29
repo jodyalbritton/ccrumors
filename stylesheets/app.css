@@ -64,14 +64,29 @@ div.containment {
 	padding: 5px;
    
 }
-
-
+.round-image {
+	-webkit-border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 0px 0px;
+	border:8px solid #FFFFFF;background:rgba(227,227,227,0.0);
+}
+.round-bottom{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
 .framed {
 	background-image: url(../images/background.png);
 	background-repeat:no-repeat;
     background-position: center;
 	background-size: 94%;
 	padding: 50px;
+
+}
+
+.full-round{
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
 }
 /* -----------------------------------------
    Page Name 2
