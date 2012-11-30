@@ -29,28 +29,40 @@ h1 {
 	
 	font-family: 'bleeding_cowboysregular';
 	color: grey;
+	font-size: 60px;
+	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h2 { 
 	
 	
 	font-family: 'bleeding_cowboysregular';
 	color: grey;
+	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h3 { 
 	
 	
 	font-family: 'bleeding_cowboysregular';
 	color: grey;
+	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h4 { 
 	
 	
 	font-family: 'bleeding_cowboysregular';
 	color: grey;
+	text-shadow: 0.1em 0.1em 0.10em #000000
+}
+h5 { 
+	
+	
+	font-family: 'bleeding_cowboysregular';
+	color: grey;
+	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 
 div.logo{
-	padding-top: 11px;
+	padding-top: 25px;
 }
 
 div.copy-cat{
@@ -68,11 +80,24 @@ div.containment {
 	-webkit-border-radius: 7px 7px 0px 0px;
 	-moz-border-radius: 7px 7px 0px 0px;
 	border-radius: 7px 7px 0px 0px;
-	border:8px solid #FFFFFF;background:rgba(227,227,227,0.0);
+	border:8px solid #FFFFFF;
+	background:rgba(227,227,227,0.0);
 }
 .round-bottom{
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+.panel{
+		background:rgba(227,227,227,0.20);
+
+}
+.panel p {
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.subheader{
+	color: white;
 }
 .framed {
 	background-image: url(../images/background.png);
@@ -80,6 +105,7 @@ div.containment {
     background-position: center;
 	background-size: 94%;
 	padding: 50px;
+
 
 }
 
