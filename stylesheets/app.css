@@ -76,6 +76,10 @@ div.containment {
 	padding: 5px;
    
 }
+.facebook { 
+	overflow: hidden; 
+	border: 1px solid #d5d5d5; 
+}
 .round-image {
 	-webkit-border-radius: 7px 7px 0px 0px;
 	-moz-border-radius: 7px 7px 0px 0px;
