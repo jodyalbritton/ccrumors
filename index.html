@@ -28,6 +28,8 @@
   <script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
+
+
   <div class="row">
     <div class="twelve columns">
 
@@ -67,7 +69,7 @@
           <div class="six columns">
           
 
-            <img src="images/burger.jpg"><br>
+            <div class="fb-like-box" data-href="https://www.facebook.com/CCRumors" data-width="435" data-height="335" data-show-faces="true" data-colorscheme="dark" data-stream="true" data-header="false"></div>
        
 
           </div>
@@ -185,7 +187,7 @@ Welcome to the website of Cedar Creek Lake’s hottest new spot! From great stea
 
       <!-- End Footer -->
 
-
+   
     </div>
   </div>
 </div>
@@ -235,5 +237,13 @@ Welcome to the website of Cedar Creek Lake’s hottest new spot! From great stea
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=411081215629728";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
