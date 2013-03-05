@@ -29,34 +29,36 @@ h1 {
 	
 	font-family: 'bleeding_cowboysregular';
 	color: grey;
-	font-size: 60px;
+	font-size: 55px;
 	text-shadow: 0.1em 0.1em 0.10em #000000
+    letter-spacing: 4px;
+
 }
 h2 { 
 	
 	
-	font-family: 'bleeding_cowboysregular';
+	font-family: 'Cinzel', serif;
 	color: grey;
 	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h3 { 
 	
 	
-	font-family: 'bleeding_cowboysregular';
+	font-family: 'Cinzel', serif;
 	color: grey;
 	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h4 { 
 	
 	
-	font-family: 'bleeding_cowboysregular';
+	font-family: 'Cinzel', serif;
 	color: grey;
 	text-shadow: 0.1em 0.1em 0.10em #000000
 }
 h5 { 
 	
 	
-	font-family: 'bleeding_cowboysregular';
+	font-family: 'Cinzel', serif;
 	color: grey;
 	text-shadow: 0.1em 0.1em 0.10em #000000
 }
@@ -113,6 +115,14 @@ div.containment {
 
 }
 
+.logo h1 {
+	text-align: center;
+}
+.logo h2 {
+	text-align: center;
+	color: grey;
+	text-decoration: underline;
+}
 .full-round{
 	-webkit-border-radius: 7px 7px 7px 7px;
 	-moz-border-radius: 7px 7px 7px 7px;
