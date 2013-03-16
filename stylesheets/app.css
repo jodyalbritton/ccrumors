@@ -132,4 +132,38 @@ div.containment {
    Page Name 2
 ----------------------------------------- */
 
+#menu-items li{
+   list-style:none;    
+   overflow:hidden;
+   padding:5px 0;
+   position:relative;
+}
+#menu-items li label{
+   float:left;
+   color:#fff;
+   padding-right:10px;
+}
+#menu-items li span{
+   float:right;
+   color:#fff;
+   padding-left:10px;
+}
+#menu-items .dotted-bg{
+   color:#fff;
+   border-top:dotted 2px #ccc;
+   position:absolute;   
+   top:15px;
+   left:0;
+   width:100%;
+   z-index:-1;
+}
 
+#menu {
+	color: #fff;
+	text-align: center;
+}
+
+#menu li {
+	text-decoration: none;
+	list-style: none;
+}
